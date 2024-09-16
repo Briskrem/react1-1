@@ -1,0 +1,48 @@
+span{
+    display: block;
+    height: 1rem;
+    width: 1rem;
+    background-color: orange;
+    /* margin: .5rem 0; */
+    border-radius: .4rem;
+}
+
+.Navbar{
+    height: 4rem;
+    width: 100%;
+    /* background-color: red; */
+    background: linear-gradient(180deg, cornflowerblue, yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-container{
+    height: 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navlink-container{
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hamburger-container{
+    height: 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hamburger{
+    height: 3rem;
+    width: 3.5rem;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(23,23,23,.7);
+}
