@@ -1,0 +1,46 @@
+.Navbar{
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: tomato;
+}
+.logo-container{
+    height: 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-list{
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hamburger-container{
+    height: 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hamburger{
+    height: 80%;
+    width: 50%;
+    box-shadow: 0 0 10px black;
+    border-radius: .3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hamburger span{
+    display: block;
+    height: .3rem;
+    width: 2rem;
+    background: white;
+    margin: .3rem 0;
+}

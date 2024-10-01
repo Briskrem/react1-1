@@ -1,0 +1,19 @@
+.Sidebar{
+    position: absolute;
+    top: 0;
+    left: -300px;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(110deg, white, skyblue, yellow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s ease-in;
+}
+.box1{
+    height: 40rem;
+    width: 50%;
+    border: 1px solid red;
+    margin-top: 1rem;
+}
