@@ -1,0 +1,10 @@
+.navlink{
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(188deg, limegreen 50%, skyblue, yellow);
+    border-radius: 50%;
+    box-shadow: 0 0 10px lime;
+} 
